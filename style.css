@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box
+  box-sizing: border-box;
 }
 
 .logo{
@@ -9,13 +9,19 @@
   margin-top:10px;
 }
 
-ul{
-  list-style: none;
-}
 .main-nav li{
-  margin-right:20px;
+  margin-right:21px;
+  display: flex;
 }
-.main-nav{
-  display:flex
 
+.main-nav {
+  margin-right:20px;
+  list-style: none;
+  display: flex;
+  margin-top:34px;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
 }
